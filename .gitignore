@@ -1,0 +1,4 @@
+*.pyc
+*~
+cos.egg-info
+docs/build/*
