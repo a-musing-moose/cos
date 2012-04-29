@@ -3,6 +3,15 @@ import zmq
 
 class Worker():
 
+    db = None
+    middleware = None
+    router = None
+
+    def __init__(self, middleware, db, router):
+        self.middleware = middleware
+        self.db = db
+        seld.router = router
+
     def run(self):
         context = zmq.Context()
     
